@@ -32,7 +32,7 @@ int main(){
 	//menghitung nilai volum bola
 	float volume_bola = (4*phi*(pow(radius, 3)))/3;
 	int volume_balok = panjang1*lebar1*tinggi1;
-	int volume_limas = panjang2*lebar2*tinggi2/2;
+	int volume_limas = panjang2*lebar2*tinggi2/3;
 	
 	//output data
 	printf("Volume Vola\t: %.2f\n", volume_bola);
