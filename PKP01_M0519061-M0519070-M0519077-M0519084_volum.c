@@ -35,7 +35,7 @@ int main(){
 	int volume_limas = (panjang2*lebar2*tinggi2)/3;
 	
 	//output data
-	printf("Volume Vola\t: %.2f\n", volume_bola);
+	printf("Volume Bola\t: %.2f\n", volume_bola);
 	printf("Volume balok\t:%d\n", volume_balok);
 	printf("Volume limas\t:%d\n", volume_limas);
 }
