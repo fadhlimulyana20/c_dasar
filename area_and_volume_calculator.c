@@ -47,7 +47,7 @@ float luas_lingkaran(){
 
 //volume
 	float radius;
-	int panjang1, lebar1, tinggi1, panjang2, lebar2, tinggi2;
+	int p1, l1, t1, p2, l2, t2;
 
 float volume_bola(){
     //input
@@ -64,14 +64,14 @@ float volume_bola(){
 int volume_balok(){
     //input
     printf("Masukkan nilai panjang1\t:");
-	scanf("%d", &panjang1);
+	scanf("%d", &p1);
 	printf("Masukkan nilai lebar1\t:");
-	scanf("%d", &lebar1);
+	scanf("%d", &l1);
 	printf("Masukkan nilai tinggi1\t:");
-	scanf("%d", &tinggi1);
+	scanf("%d", &t1);
 
     //menghitung volume
-    int volume_balok = panjang1*lebar1*tinggi1;
+    int volume_balok = p1*l1*t1;
 
     //mencetak output
     printf("Volume balok\t:%d\n", volume_balok);   
@@ -80,14 +80,14 @@ int volume_balok(){
 int volume_limas(){
     //input
     printf("Masukkan nilai panjang2\t:");
-	scanf("%d", &panjang2);
+	scanf("%d", &p2);
 	printf("Masukkan nilai lebar2\t:");
-	scanf("%d", &lebar2);
+	scanf("%d", &l2);
 	printf("Masukkan nilai tinggi2\t:");
-	scanf("%d", &tinggi2);
+	scanf("%d", &t2);
 
     //menghitung volume
-    int volume_limas = (panjang2*lebar2*tinggi2)/3;
+    int volume_limas = (p2*l2*t2)/3;
 
     //mencetak output
     printf("Volume limas\t:%d\n", volume_limas);
@@ -99,6 +99,7 @@ int main(){
         printf("Pilih untuk menghitung\n");
         printf("1.\tLuas\n");
         printf("2.\tVolume\n");
+        printf("0.\tKeluar\n");
         printf("Pilihan\t:");
         scanf("%d", &opt);
         if (opt == 1){
