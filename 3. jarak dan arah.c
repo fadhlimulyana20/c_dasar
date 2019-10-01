@@ -17,7 +17,7 @@ int main(){
 	printf("Nilai y2\t:");
 	scanf("%d", &y2);
 	
-	float jarak = sqrt((pow((x2-x1),2)) + (pow((x2-x1),2)));
+	float jarak = sqrt((pow((x2-x1),2)) + (pow((y2-y1),2)));
 	printf("\nJarak antara kedua titik\t: %.2f\n", jarak);	
 	
 		if ((x2-x1)>0 && (y2-y1)>0){
